@@ -152,7 +152,7 @@ footer {
 }
 
 .text-holder {
-  width: calc(100%-250px)
+  width: calc(100% - 250px);
 }
 
 nav li {
