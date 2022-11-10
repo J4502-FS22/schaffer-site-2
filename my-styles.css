@@ -92,7 +92,7 @@ footer {
 
 /*media sections*/
 
-.media-holder {
+.location-holder, .media-holder {
   width: 100%;
   margin: 4rem 0;
   display: flex;
@@ -116,6 +116,10 @@ footer {
   margin: 0 auto;
 }
 
+address {
+  font-style: normal;
+}
+
 /*when the browser is at least 555px wide*/
 
 @media (min-width: 555px) {
@@ -128,7 +132,7 @@ footer {
     width: 30%;
   }
 
-  .text-holder {
+  .media-list .text-holder {
     width: 70%;
   }
 
@@ -151,7 +155,7 @@ footer {
   width: 250px;
 }
 
-.text-holder {
+.media-list .text-holder {
   width: calc(100% - 250px);
 }
 
